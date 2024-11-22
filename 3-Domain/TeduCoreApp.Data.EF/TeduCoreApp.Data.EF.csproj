@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations/" />
+    <Folder Include="Extensions/" />
+    <Folder Include="Repositories/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../4-Infrastructure/TeduCoreApp.Infrastructure/TeduCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="../../4-Infrastructure/TeduCoreApp.Ultilities/TeduCoreApp.Ultilities.csproj" />
+    <ProjectReference Include="../TeduCoreApp.Data/TeduCoreApp.Data.csproj" />
+  </ItemGroup>
+
 </Project>

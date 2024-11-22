@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="AutoMapper/" />
+    <Folder Include="Implementations/" />
+    <Folder Include="Interfaces/" />
+    <Folder Include="ViewModels/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../3-Domain/TeduCoreApp.Data.EF/TeduCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="../../3-Domain/TeduCoreApp.Data/TeduCoreApp.Data.csproj" />
+    <ProjectReference Include="../../4-Infrastructure/TeduCoreApp.Ultilities/TeduCoreApp.Ultilities.csproj" />
+  </ItemGroup>
+
 </Project>

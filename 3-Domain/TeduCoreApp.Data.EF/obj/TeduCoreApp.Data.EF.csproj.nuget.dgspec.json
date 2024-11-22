@@ -25,6 +25,175 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/acer/Desktop/projects/TeduCoreApp/3-Domain/TeduCoreApp.Data/TeduCoreApp.Data.csproj": {
+                "projectPath": "/home/acer/Desktop/projects/TeduCoreApp/3-Domain/TeduCoreApp.Data/TeduCoreApp.Data.csproj"
+              },
+              "/home/acer/Desktop/projects/TeduCoreApp/4-Infrastructure/TeduCoreApp.Infrastructure/TeduCoreApp.Infrastructure.csproj": {
+                "projectPath": "/home/acer/Desktop/projects/TeduCoreApp/4-Infrastructure/TeduCoreApp.Infrastructure/TeduCoreApp.Infrastructure.csproj"
+              },
+              "/home/acer/Desktop/projects/TeduCoreApp/4-Infrastructure/TeduCoreApp.Ultilities/TeduCoreApp.Ultilities.csproj": {
+                "projectPath": "/home/acer/Desktop/projects/TeduCoreApp/4-Infrastructure/TeduCoreApp.Ultilities/TeduCoreApp.Ultilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/acer/Desktop/projects/TeduCoreApp/3-Domain/TeduCoreApp.Data/TeduCoreApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/acer/Desktop/projects/TeduCoreApp/3-Domain/TeduCoreApp.Data/TeduCoreApp.Data.csproj",
+        "projectName": "TeduCoreApp.Data",
+        "projectPath": "/home/acer/Desktop/projects/TeduCoreApp/3-Domain/TeduCoreApp.Data/TeduCoreApp.Data.csproj",
+        "packagesPath": "/home/acer/.nuget/packages/",
+        "outputPath": "/home/acer/Desktop/projects/TeduCoreApp/3-Domain/TeduCoreApp.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/acer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/acer/Desktop/projects/TeduCoreApp/4-Infrastructure/TeduCoreApp.Infrastructure/TeduCoreApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/acer/Desktop/projects/TeduCoreApp/4-Infrastructure/TeduCoreApp.Infrastructure/TeduCoreApp.Infrastructure.csproj",
+        "projectName": "TeduCoreApp.Infrastructure",
+        "projectPath": "/home/acer/Desktop/projects/TeduCoreApp/4-Infrastructure/TeduCoreApp.Infrastructure/TeduCoreApp.Infrastructure.csproj",
+        "packagesPath": "/home/acer/.nuget/packages/",
+        "outputPath": "/home/acer/Desktop/projects/TeduCoreApp/4-Infrastructure/TeduCoreApp.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/acer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/acer/Desktop/projects/TeduCoreApp/4-Infrastructure/TeduCoreApp.Ultilities/TeduCoreApp.Ultilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/acer/Desktop/projects/TeduCoreApp/4-Infrastructure/TeduCoreApp.Ultilities/TeduCoreApp.Ultilities.csproj",
+        "projectName": "TeduCoreApp.Ultilities",
+        "projectPath": "/home/acer/Desktop/projects/TeduCoreApp/4-Infrastructure/TeduCoreApp.Ultilities/TeduCoreApp.Ultilities.csproj",
+        "packagesPath": "/home/acer/.nuget/packages/",
+        "outputPath": "/home/acer/Desktop/projects/TeduCoreApp/4-Infrastructure/TeduCoreApp.Ultilities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/acer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
